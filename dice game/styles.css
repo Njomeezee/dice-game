@@ -1,0 +1,102 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;500&display=swap');
+
+/* General Body Styles */
+body {
+    background-image: url('images/casino.jpg');
+    /* Replace with the path to your background image */
+    background-size: cover;
+    /* Cover the entire viewport */
+    background-position: center;
+    /* Center the background image */
+    background-repeat: no-repeat;
+    /* Prevent the background image from repeating */
+    color: #000000;
+    /* Black text color */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Full viewport height */
+}
+
+/* Container Styles */
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.22);
+    /* Semi-transparent white background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.33);
+    /* Subtle shadow */
+}
+
+/* Header Styles */
+h1 {
+    margin: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    color: #000000;
+    /* Black text color */
+    text-shadow: 2px 2px 4px rgba(169, 169, 169, 0.6);
+    /* Grey shadow */
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1.5rem;
+    color: #000000;
+    /* Black text color */
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0;
+    text-shadow: 1px 1px 2px rgb(255, 254, 254);
+    /* Grey shadow */
+}
+
+/* Dice Styles */
+.dice {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Dice Image Styles */
+img {
+    width: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Button Styles */
+button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #26292a;
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 20px;
+    color: #000000;
+    /* Black text color */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    /* Grey shadow */
+}
